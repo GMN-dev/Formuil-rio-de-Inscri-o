@@ -1,0 +1,50 @@
+body{
+    font-family: 'Outfit', sans-serif;;
+    margin: 0;
+    padding: 0;
+}
+
+/*=-=-=-=--== Header =-=-===-=-=*/
+.container_header{
+    background-color: #0278d8;
+    box-sizing: border-box;
+}
+.container_header h1{
+    margin: 0 auto;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    color: #ffff;
+}
+
+/*=-=-=-=-= Main =-=-=-=--=-*/
+#main_section{
+    background-image: url(/images/people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 90vh;
+}
+.sigin{
+    width: 260px;
+    margin: 25px;
+    margin-right: 30px;
+    background-color:rgba(255, 255, 255, 0.562);
+    float: right;
+}
+#msg{
+    padding: 18px;
+    margin: 0;
+}
+
+#msg_p1{
+    text-transform: uppercase;
+    margin-top: 0;
+    font-weight:bolder;
+}
+
+#msg_p2{
+    margin-bottom: 0;
+    padding: 0;
+}
+
+

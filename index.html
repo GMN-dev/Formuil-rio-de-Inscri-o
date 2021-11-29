@@ -31,31 +31,30 @@
                         </p>
                     </article>
                 </div>
-
                 <div id="container_form">
                     <form method="get">
-                        <input type="text" placeholder="Nome">
+                        <input type="password" name="nome" placeholder="Nome" class="input_style">
                             <br>
-                        <input type="email" placeholder="Email">
+                        <input type="email" name="email" placeholder="Email" class="input_style">
                             <br>
-                        <select name="state" id="">
-                            <option value="RJ">Rio de Janeiro</option>
-                            <option value="DF">Distrito Federal</option>
-                            <option value="SP">São Paulo</option>
-                        </select>
-                            <br>
-                        <input type="submit" value="INSCREVA-SA" id="submit">
+                            <div id="selector">
+                                <select name="state">
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="SP">São Paulo</option>
+                                </select>
+                            </div>
+                        <input type="submit" value="INSCREVA-SE!" id="sub" class="input_style" >
                     </form>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <div class="container_footer"> </div>
+        <div class="container_footer"> 
             <div class="container_img-palestrante">
                 <img src="/images/face.jpg" alt="Carlos" width="150px">
             </div>
-            <br>
             <div id="sobre">
                 <article>
                     <h2>O Palestrante</h2>
@@ -73,6 +72,7 @@
                     </p>
                 </article>
             </div>
+        </div>
     </footer>
 </body>
 </html>

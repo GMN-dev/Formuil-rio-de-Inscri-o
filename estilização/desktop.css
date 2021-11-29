@@ -1,6 +1,8 @@
 body{
     font-family: 'Outfit', sans-serif;;
     margin: 0;
+    width: 80%;
+    margin: auto;
     padding: 0;
 }
 
@@ -30,21 +32,60 @@ body{
     margin-right: 30px;
     background-color:rgba(255, 255, 255, 0.562);
     float: right;
+    border-radius: 5px;
 }
 #msg{
     padding: 18px;
     margin: 0;
 }
-
 #msg_p1{
     text-transform: uppercase;
     margin-top: 0;
     font-weight:bolder;
 }
-
 #msg_p2{
     margin-bottom: 0;
     padding: 0;
 }
-
-
+#container_form{
+    text-align: center;
+    width: 87%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+#container_form input{
+    box-sizing: border-box;
+    width: 95%;
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+#container_form input:last-child{
+    background-color:#0278d8;
+    border: none;
+    color: white;
+}
+#selector{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 5px;
+    background-color: beige;
+}
+#selector select{
+    padding: 5px;
+    width: 100%;
+    border: none;
+}
+/* =-=-=-==-=-Footer=-=-=-=-==*/
+.container_footer{
+        background-color: wheat;
+}
+.container_img-palestrante{
+    display: inline-block;
+    background-color: yellow;
+}
+#sobre{
+    width: 50%;
+    display: inline-block;
+    background-color: yellowgreen;
+}

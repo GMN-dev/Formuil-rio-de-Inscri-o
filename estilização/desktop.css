@@ -1,91 +1,82 @@
-body{
-    font-family: 'Outfit', sans-serif;;
-    margin: 0;
-    width: 80%;
-    margin: auto;
+*{
     padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    background-color: black;
+    
 }
 
 /*=-=-=-=--== Header =-=-===-=-=*/
 .container_header{
-    background-color: #0278d8;
+    background-color: #48C5CE;
     box-sizing: border-box;
+    padding: 10px;
 }
 .container_header h1{
-    margin: 0 auto;
-    padding: 5px 0 5px 0;
+    margin: auto;
+    font-size: 26px;
     text-align: center;
     color: #ffff;
+    text-transform: uppercase;
 }
 
 /*=-=-=-=-= Main =-=-=-=--=-*/
 #main_section{
     background-image: url(/images/people.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    box-sizing: border-box;
-    height: 90vh;
+    overflow: hidden;
 }
 .sigin{
-    width: 260px;
-    margin: 25px;
-    margin-right: 30px;
+    width: 230px;
     background-color:rgba(255, 255, 255, 0.562);
     float: right;
     border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
 }
-#msg{
-    padding: 18px;
-    margin: 0;
+.paragraph{
+    margin-bottom: 15px;
 }
-#msg_p1{
+.alfa{
+    font-size: 16px;
     text-transform: uppercase;
-    margin-top: 0;
-    font-weight:bolder;
 }
-#msg_p2{
-    margin-bottom: 0;
-    padding: 0;
-}
-#container_form{
-    text-align: center;
-    width: 87%;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
-#container_form input{
-    box-sizing: border-box;
-    width: 95%;
-    padding: 5px;
-    margin: 0;
-    margin-bottom: 5px;
-}
-#container_form input:last-child{
-    background-color:#0278d8;
-    border: none;
-    color: white;
-}
-#selector{
-    width: 95%;
-    margin: auto;
-    margin-bottom: 5px;
-    background-color: beige;
-}
-#selector select{
-    padding: 5px;
+.input_style{
+    margin-bottom: 10px;
+    padding: 10px;
     width: 100%;
+    box-sizing: border-box;
     border: none;
+}
+.input_style[type=submit]{
+    margin-bottom: 0;
+    color: white;
+    background-color:#48C5CE;
+    font-weight: bold;
+}
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(/images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
 }
 /* =-=-=-==-=-Footer=-=-=-=-==*/
 .container_footer{
-        background-color: wheat;
+    background-color: wheat;
+    text-align: center;
+    margin: auto;
 }
 .container_img-palestrante{
-    display: inline-block;
-    background-color: yellow;
 }
-#sobre{
-    width: 50%;
+article{
     display: inline-block;
+    text-align: center;
+    max-width: 350px;
     background-color: yellowgreen;
 }

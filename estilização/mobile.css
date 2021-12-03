@@ -1,0 +1,38 @@
+@media screen and (max-width: 650px) {
+    .container_footer{
+    padding: 20px;
+    }
+    #sobre{
+    margin: 0;
+    display: inline;
+    width: 50%;
+    }
+    #sobre h2{
+    margin-top: 20px;
+    text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: 540px){
+    .sigin{
+    box-sizing: border-box;
+    width: 90%;
+    float: none;
+    margin: 10px auto;
+    }
+    .container_footer{
+    padding: 20px;
+    }
+    #sobre{
+    margin: 0;
+    display: inline;
+    width: 50%;
+    }
+    #sobre h2{
+    margin-top: 20px;
+    text-align: center;
+    }
+}
+

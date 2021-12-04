@@ -1,8 +1,8 @@
-# Formuil-rio-de-Inscri-o
-Formulário de Inscrição para Workshop responsivo
+# Página de captura
+Página de captura para Workshop
 
 # Ideia
-Formulario de inscrição para participar de workshop de marketing 
+Página de captura para participar de workshop de marketing 
 
 # Objetivo
 -Colocar praticas de HTML, CSS e JS, sem frameworks.

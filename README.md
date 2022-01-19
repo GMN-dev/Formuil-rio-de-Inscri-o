@@ -1,7 +1,7 @@
 # Página de captura
 Página de captura para Workshop
 
-      ![topo](https://user-images.githubusercontent.com/84913052/150196507-f3dd8ff1-7fc5-42d1-b77b-ade03af24616.gif)
+   ![topo](https://user-images.githubusercontent.com/84913052/150196507-f3dd8ff1-7fc5-42d1-b77b-ade03af24616.gif)
 
 
 # Ideia

@@ -7,6 +7,11 @@ Página de captura para participar de workshop de marketing
 # Objetivo
 -Colocar praticas de HTML, CSS e JS, sem frameworks.
 
+# Relatório
+Com esse projeto, desenvolvi:
+- Melhor entendimento de CSS
+- Noções de Responsividade
+
 # Ferramentas
 -VS code
 -HTML
